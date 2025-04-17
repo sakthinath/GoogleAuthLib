@@ -22,10 +22,5 @@ let package = Package(
             ],
             path: "GoogleAuthLib"
         ),
-        .testTarget(
-            name: "GoogleAuthLibTests",
-            dependencies: ["GoogleAuthLib"],
-            path: "GoogleAuthLibTests"
-        ),
     ]
 ) 
