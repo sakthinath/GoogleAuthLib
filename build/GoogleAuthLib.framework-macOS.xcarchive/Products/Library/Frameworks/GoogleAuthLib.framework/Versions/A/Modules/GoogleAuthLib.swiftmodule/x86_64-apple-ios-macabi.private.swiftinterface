@@ -1,0 +1,48 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-module-flags: -target x86_64-apple-ios16.0-macabi -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name GoogleAuthLib
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import Foundation
+@_exported import GoogleAuthLib
+import GoogleSignIn
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum AuthError : Swift.Error {
+  case noUserIdToken
+  case noAccessToken
+  case invalidUserData
+  case signInCancelled
+  case configurationError
+  case unknownError(any Swift.Error)
+  public var localizedDescription: Swift.String {
+    get
+  }
+}
+public struct GoogleUser {
+  public let id: Swift.String
+  public let fullName: Swift.String
+  public let givenName: Swift.String?
+  public let familyName: Swift.String?
+  public let email: Swift.String
+  public let profileImageURL: Foundation.URL?
+  public init(id: Swift.String, fullName: Swift.String, givenName: Swift.String?, familyName: Swift.String?, email: Swift.String, profileImageURL: Foundation.URL?)
+}
+public protocol GoogleAuthDelegate : AnyObject {
+  func didSignIn(with user: GoogleAuthLib.GoogleUser)
+  func didFailWithError(_ error: GoogleAuthLib.AuthError)
+  func didDisconnect()
+}
+public class GoogleAuthManager {
+  weak public var delegate: (any GoogleAuthLib.GoogleAuthDelegate)?
+  public init(clientID: Swift.String)
+  public func configure()
+  public func handle(_ url: Foundation.URL) -> Swift.Bool
+  public func signIn(presentingViewController: UIKit.UIViewController)
+  public func signOut()
+  public func disconnect()
+  public func restorePreviousSignIn()
+  @objc deinit
+}

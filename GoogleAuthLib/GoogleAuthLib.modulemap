@@ -1,0 +1,11 @@
+framework module GoogleAuthLib {
+    umbrella header "GoogleAuthLib.h"
+    
+    export *
+    module * { export * }
+    
+    explicit module Swift {
+        header "GoogleAuthLib-Swift.h"
+        export *
+    }
+} 

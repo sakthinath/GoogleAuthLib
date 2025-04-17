@@ -1,0 +1,1186 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "GoogleAuthLib",
+    "printedName": "GoogleAuthLib",
+    "children": [
+      {
+        "kind": "TypeDecl",
+        "name": "AuthError",
+        "printedName": "AuthError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "noUserIdToken",
+            "printedName": "noUserIdToken",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GoogleAuthLib.AuthError.Type) -> GoogleAuthLib.AuthError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AuthError",
+                    "printedName": "GoogleAuthLib.AuthError",
+                    "usr": "s:13GoogleAuthLib0B5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "GoogleAuthLib.AuthError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AuthError",
+                        "printedName": "GoogleAuthLib.AuthError",
+                        "usr": "s:13GoogleAuthLib0B5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13GoogleAuthLib0B5ErrorO13noUserIdTokenyA2CmF",
+            "mangledName": "$s13GoogleAuthLib0B5ErrorO13noUserIdTokenyA2CmF",
+            "moduleName": "GoogleAuthLib"
+          },
+          {
+            "kind": "Var",
+            "name": "noAccessToken",
+            "printedName": "noAccessToken",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GoogleAuthLib.AuthError.Type) -> GoogleAuthLib.AuthError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AuthError",
+                    "printedName": "GoogleAuthLib.AuthError",
+                    "usr": "s:13GoogleAuthLib0B5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "GoogleAuthLib.AuthError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AuthError",
+                        "printedName": "GoogleAuthLib.AuthError",
+                        "usr": "s:13GoogleAuthLib0B5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13GoogleAuthLib0B5ErrorO13noAccessTokenyA2CmF",
+            "mangledName": "$s13GoogleAuthLib0B5ErrorO13noAccessTokenyA2CmF",
+            "moduleName": "GoogleAuthLib"
+          },
+          {
+            "kind": "Var",
+            "name": "invalidUserData",
+            "printedName": "invalidUserData",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GoogleAuthLib.AuthError.Type) -> GoogleAuthLib.AuthError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AuthError",
+                    "printedName": "GoogleAuthLib.AuthError",
+                    "usr": "s:13GoogleAuthLib0B5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "GoogleAuthLib.AuthError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AuthError",
+                        "printedName": "GoogleAuthLib.AuthError",
+                        "usr": "s:13GoogleAuthLib0B5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13GoogleAuthLib0B5ErrorO15invalidUserDatayA2CmF",
+            "mangledName": "$s13GoogleAuthLib0B5ErrorO15invalidUserDatayA2CmF",
+            "moduleName": "GoogleAuthLib"
+          },
+          {
+            "kind": "Var",
+            "name": "signInCancelled",
+            "printedName": "signInCancelled",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GoogleAuthLib.AuthError.Type) -> GoogleAuthLib.AuthError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AuthError",
+                    "printedName": "GoogleAuthLib.AuthError",
+                    "usr": "s:13GoogleAuthLib0B5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "GoogleAuthLib.AuthError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AuthError",
+                        "printedName": "GoogleAuthLib.AuthError",
+                        "usr": "s:13GoogleAuthLib0B5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13GoogleAuthLib0B5ErrorO15signInCancelledyA2CmF",
+            "mangledName": "$s13GoogleAuthLib0B5ErrorO15signInCancelledyA2CmF",
+            "moduleName": "GoogleAuthLib"
+          },
+          {
+            "kind": "Var",
+            "name": "configurationError",
+            "printedName": "configurationError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GoogleAuthLib.AuthError.Type) -> GoogleAuthLib.AuthError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AuthError",
+                    "printedName": "GoogleAuthLib.AuthError",
+                    "usr": "s:13GoogleAuthLib0B5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "GoogleAuthLib.AuthError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AuthError",
+                        "printedName": "GoogleAuthLib.AuthError",
+                        "usr": "s:13GoogleAuthLib0B5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13GoogleAuthLib0B5ErrorO013configurationD0yA2CmF",
+            "mangledName": "$s13GoogleAuthLib0B5ErrorO013configurationD0yA2CmF",
+            "moduleName": "GoogleAuthLib"
+          },
+          {
+            "kind": "Var",
+            "name": "unknownError",
+            "printedName": "unknownError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GoogleAuthLib.AuthError.Type) -> (any Swift.Error) -> GoogleAuthLib.AuthError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(any Swift.Error) -> GoogleAuthLib.AuthError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AuthError",
+                        "printedName": "GoogleAuthLib.AuthError",
+                        "usr": "s:13GoogleAuthLib0B5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "GoogleAuthLib.AuthError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AuthError",
+                        "printedName": "GoogleAuthLib.AuthError",
+                        "usr": "s:13GoogleAuthLib0B5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13GoogleAuthLib0B5ErrorO07unknownD0yACs0D0_pcACmF",
+            "mangledName": "$s13GoogleAuthLib0B5ErrorO07unknownD0yACs0D0_pcACmF",
+            "moduleName": "GoogleAuthLib"
+          },
+          {
+            "kind": "Var",
+            "name": "localizedDescription",
+            "printedName": "localizedDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13GoogleAuthLib0B5ErrorO20localizedDescriptionSSvp",
+            "mangledName": "$s13GoogleAuthLib0B5ErrorO20localizedDescriptionSSvp",
+            "moduleName": "GoogleAuthLib",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GoogleAuthLib0B5ErrorO20localizedDescriptionSSvg",
+                "mangledName": "$s13GoogleAuthLib0B5ErrorO20localizedDescriptionSSvg",
+                "moduleName": "GoogleAuthLib",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:13GoogleAuthLib0B5ErrorO",
+        "mangledName": "$s13GoogleAuthLib0B5ErrorO",
+        "moduleName": "GoogleAuthLib",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GoogleUser",
+        "printedName": "GoogleUser",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13GoogleAuthLib0A4UserV2idSSvp",
+            "mangledName": "$s13GoogleAuthLib0A4UserV2idSSvp",
+            "moduleName": "GoogleAuthLib",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GoogleAuthLib0A4UserV2idSSvg",
+                "mangledName": "$s13GoogleAuthLib0A4UserV2idSSvg",
+                "moduleName": "GoogleAuthLib",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fullName",
+            "printedName": "fullName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13GoogleAuthLib0A4UserV8fullNameSSvp",
+            "mangledName": "$s13GoogleAuthLib0A4UserV8fullNameSSvp",
+            "moduleName": "GoogleAuthLib",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GoogleAuthLib0A4UserV8fullNameSSvg",
+                "mangledName": "$s13GoogleAuthLib0A4UserV8fullNameSSvg",
+                "moduleName": "GoogleAuthLib",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "givenName",
+            "printedName": "givenName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13GoogleAuthLib0A4UserV9givenNameSSSgvp",
+            "mangledName": "$s13GoogleAuthLib0A4UserV9givenNameSSSgvp",
+            "moduleName": "GoogleAuthLib",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GoogleAuthLib0A4UserV9givenNameSSSgvg",
+                "mangledName": "$s13GoogleAuthLib0A4UserV9givenNameSSSgvg",
+                "moduleName": "GoogleAuthLib",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "familyName",
+            "printedName": "familyName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13GoogleAuthLib0A4UserV10familyNameSSSgvp",
+            "mangledName": "$s13GoogleAuthLib0A4UserV10familyNameSSSgvp",
+            "moduleName": "GoogleAuthLib",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GoogleAuthLib0A4UserV10familyNameSSSgvg",
+                "mangledName": "$s13GoogleAuthLib0A4UserV10familyNameSSSgvg",
+                "moduleName": "GoogleAuthLib",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "email",
+            "printedName": "email",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13GoogleAuthLib0A4UserV5emailSSvp",
+            "mangledName": "$s13GoogleAuthLib0A4UserV5emailSSvp",
+            "moduleName": "GoogleAuthLib",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GoogleAuthLib0A4UserV5emailSSvg",
+                "mangledName": "$s13GoogleAuthLib0A4UserV5emailSSvg",
+                "moduleName": "GoogleAuthLib",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "profileImageURL",
+            "printedName": "profileImageURL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13GoogleAuthLib0A4UserV15profileImageURL10Foundation0G0VSgvp",
+            "mangledName": "$s13GoogleAuthLib0A4UserV15profileImageURL10Foundation0G0VSgvp",
+            "moduleName": "GoogleAuthLib",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.URL?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GoogleAuthLib0A4UserV15profileImageURL10Foundation0G0VSgvg",
+                "mangledName": "$s13GoogleAuthLib0A4UserV15profileImageURL10Foundation0G0VSgvg",
+                "moduleName": "GoogleAuthLib",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(id:fullName:givenName:familyName:email:profileImageURL:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GoogleUser",
+                "printedName": "GoogleAuthLib.GoogleUser",
+                "usr": "s:13GoogleAuthLib0A4UserV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13GoogleAuthLib0A4UserV2id8fullName05givenG006familyG05email15profileImageURLACSS_S2SSgAJSS10Foundation0M0VSgtcfc",
+            "mangledName": "$s13GoogleAuthLib0A4UserV2id8fullName05givenG006familyG05email15profileImageURLACSS_S2SSgAJSS10Foundation0M0VSgtcfc",
+            "moduleName": "GoogleAuthLib",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13GoogleAuthLib0A4UserV",
+        "mangledName": "$s13GoogleAuthLib0A4UserV",
+        "moduleName": "GoogleAuthLib",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GoogleAuthDelegate",
+        "printedName": "GoogleAuthDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "didSignIn",
+            "printedName": "didSignIn(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GoogleUser",
+                "printedName": "GoogleAuthLib.GoogleUser",
+                "usr": "s:13GoogleAuthLib0A4UserV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13GoogleAuthLib0aB8DelegateP9didSignIn4withyAA0A4UserV_tF",
+            "mangledName": "$s13GoogleAuthLib0aB8DelegateP9didSignIn4withyAA0A4UserV_tF",
+            "moduleName": "GoogleAuthLib",
+            "genericSig": "<τ_0_0 where τ_0_0 : GoogleAuthLib.GoogleAuthDelegate>",
+            "sugared_genericSig": "<Self where Self : GoogleAuthLib.GoogleAuthDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didFailWithError",
+            "printedName": "didFailWithError(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AuthError",
+                "printedName": "GoogleAuthLib.AuthError",
+                "usr": "s:13GoogleAuthLib0B5ErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13GoogleAuthLib0aB8DelegateP16didFailWithErroryyAA0bH0OF",
+            "mangledName": "$s13GoogleAuthLib0aB8DelegateP16didFailWithErroryyAA0bH0OF",
+            "moduleName": "GoogleAuthLib",
+            "genericSig": "<τ_0_0 where τ_0_0 : GoogleAuthLib.GoogleAuthDelegate>",
+            "sugared_genericSig": "<Self where Self : GoogleAuthLib.GoogleAuthDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didDisconnect",
+            "printedName": "didDisconnect()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13GoogleAuthLib0aB8DelegateP13didDisconnectyyF",
+            "mangledName": "$s13GoogleAuthLib0aB8DelegateP13didDisconnectyyF",
+            "moduleName": "GoogleAuthLib",
+            "genericSig": "<τ_0_0 where τ_0_0 : GoogleAuthLib.GoogleAuthDelegate>",
+            "sugared_genericSig": "<Self where Self : GoogleAuthLib.GoogleAuthDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:13GoogleAuthLib0aB8DelegateP",
+        "mangledName": "$s13GoogleAuthLib0aB8DelegateP",
+        "moduleName": "GoogleAuthLib",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GoogleAuthLib",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleSignIn",
+        "printedName": "GoogleSignIn",
+        "declKind": "Import",
+        "moduleName": "GoogleAuthLib"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GoogleAuthLib"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GoogleAuthManager",
+        "printedName": "GoogleAuthManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any GoogleAuthLib.GoogleAuthDelegate)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13GoogleAuthLib0aB7ManagerC8delegateAA0aB8Delegate_pSgvp",
+            "mangledName": "$s13GoogleAuthLib0aB7ManagerC8delegateAA0aB8Delegate_pSgvp",
+            "moduleName": "GoogleAuthLib",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any GoogleAuthLib.GoogleAuthDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GoogleAuthDelegate",
+                        "printedName": "any GoogleAuthLib.GoogleAuthDelegate",
+                        "usr": "s:13GoogleAuthLib0aB8DelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GoogleAuthLib0aB7ManagerC8delegateAA0aB8Delegate_pSgvg",
+                "mangledName": "$s13GoogleAuthLib0aB7ManagerC8delegateAA0aB8Delegate_pSgvg",
+                "moduleName": "GoogleAuthLib",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any GoogleAuthLib.GoogleAuthDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GoogleAuthDelegate",
+                        "printedName": "any GoogleAuthLib.GoogleAuthDelegate",
+                        "usr": "s:13GoogleAuthLib0aB8DelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GoogleAuthLib0aB7ManagerC8delegateAA0aB8Delegate_pSgvs",
+                "mangledName": "$s13GoogleAuthLib0aB7ManagerC8delegateAA0aB8Delegate_pSgvs",
+                "moduleName": "GoogleAuthLib",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GoogleAuthLib0aB7ManagerC8delegateAA0aB8Delegate_pSgvM",
+                "mangledName": "$s13GoogleAuthLib0aB7ManagerC8delegateAA0aB8Delegate_pSgvM",
+                "moduleName": "GoogleAuthLib",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(clientID:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GoogleAuthManager",
+                "printedName": "GoogleAuthLib.GoogleAuthManager",
+                "usr": "s:13GoogleAuthLib0aB7ManagerC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13GoogleAuthLib0aB7ManagerC8clientIDACSS_tcfc",
+            "mangledName": "$s13GoogleAuthLib0aB7ManagerC8clientIDACSS_tcfc",
+            "moduleName": "GoogleAuthLib",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13GoogleAuthLib0aB7ManagerC9configureyyF",
+            "mangledName": "$s13GoogleAuthLib0aB7ManagerC9configureyyF",
+            "moduleName": "GoogleAuthLib",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handle",
+            "printedName": "handle(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13GoogleAuthLib0aB7ManagerC6handleySb10Foundation3URLVF",
+            "mangledName": "$s13GoogleAuthLib0aB7ManagerC6handleySb10Foundation3URLVF",
+            "moduleName": "GoogleAuthLib",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "signIn",
+            "printedName": "signIn(presentingViewController:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13GoogleAuthLib0aB7ManagerC6signIn24presentingViewControllerySo06UIViewI0C_tF",
+            "mangledName": "$s13GoogleAuthLib0aB7ManagerC6signIn24presentingViewControllerySo06UIViewI0C_tF",
+            "moduleName": "GoogleAuthLib",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "signOut",
+            "printedName": "signOut()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13GoogleAuthLib0aB7ManagerC7signOutyyF",
+            "mangledName": "$s13GoogleAuthLib0aB7ManagerC7signOutyyF",
+            "moduleName": "GoogleAuthLib",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "disconnect",
+            "printedName": "disconnect()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13GoogleAuthLib0aB7ManagerC10disconnectyyF",
+            "mangledName": "$s13GoogleAuthLib0aB7ManagerC10disconnectyyF",
+            "moduleName": "GoogleAuthLib",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "restorePreviousSignIn",
+            "printedName": "restorePreviousSignIn()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13GoogleAuthLib0aB7ManagerC21restorePreviousSignInyyF",
+            "mangledName": "$s13GoogleAuthLib0aB7ManagerC21restorePreviousSignInyyF",
+            "moduleName": "GoogleAuthLib",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13GoogleAuthLib0aB7ManagerC",
+        "mangledName": "$s13GoogleAuthLib0aB7ManagerC",
+        "moduleName": "GoogleAuthLib",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
