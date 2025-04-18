@@ -4,6 +4,8 @@
 //
 //  Created by Sathyanath Masthan on 16/04/25.
 //
+import Foundation
+import SwiftUI
 
 public struct GoogleUser {
     public let id: String
